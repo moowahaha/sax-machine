@@ -2,7 +2,11 @@ GEM
   remote: http://rubygems.org/
   specs:
     diff-lcs (1.1.2)
-    nokogiri (1.4.4)
+    mini_portile2 (2.8.8)
+    nokogiri (1.15.7)
+      mini_portile2 (~> 2.8.2)
+      racc (~> 1.4)
+    racc (1.8.1)
     rspec (2.4.0)
       rspec-core (~> 2.4.0)
       rspec-expectations (~> 2.4.0)
@@ -16,5 +20,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  nokogiri (>= 1.4.4)
+  nokogiri (>= 1.15.7)
   rspec (>= 2.4.0)
+
+BUNDLED WITH
+   2.1.4
